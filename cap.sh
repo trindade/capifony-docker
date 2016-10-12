@@ -13,5 +13,5 @@ docker run \
     -t \
     -v $WORKDIR:/root/workdir \
     -v $SSH_AGENT:/root/ssh-agent \
-    mjanser/capifony \
+    trindade/capifony-docker \
     $@
